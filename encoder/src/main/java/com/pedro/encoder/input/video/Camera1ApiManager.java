@@ -352,6 +352,7 @@ public class Camera1ApiManager implements Camera.PreviewCallback, Camera.FaceDet
   }
 
   private boolean checkCanOpen() {
+    return true;
     List<Camera.Size> previews;
     if (cameraSelect == selectCameraBack()) {
       previews = previewSizeBack;

@@ -325,8 +325,8 @@ public abstract class Camera2Base implements GetAacData, GetVideoData, GetMicrop
    *
    * @param url of the stream like: protocol://ip:port/application/streamName
    *
-   * RTSP: rtsp://192.168.1.1:1935/live/pedroSG94 RTSPS: rtsps://192.168.1.1:1935/live/pedroSG94
-   * RTMP: rtmp://192.168.1.1:1935/live/pedroSG94 RTMPS: rtmps://192.168.1.1:1935/live/pedroSG94
+   * RTSP: rtsp://192.168.1.1:1935/live/coooltaeho RTSPS: rtsps://192.168.1.1:1935/live/coooltaeho
+   * RTMP: rtmp://192.168.1.1:1935/live/coooltaeho RTMPS: rtmps://192.168.1.1:1935/live/coooltaeho
    * @startPreview to resolution seated in @prepareVideo. If you never startPreview this method
    * startPreview for you to resolution seated in @prepareVideo.
    */

@@ -1,17 +1,17 @@
 # rtmp-rtsp-stream-client-java
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-rtmp%20rtsp%20stream%20client%20java-green.svg?style=true)](https://android-arsenal.com/details/1/5333)
-[![Release](https://jitpack.io/v/pedroSG94/rtmp-rtsp-stream-client-java.svg)](https://jitpack.io/#pedroSG94/rtmp-rtsp-stream-client-java)
+[![Release](https://jitpack.io/v/coooltaeho/rtmp-rtsp-stream-client-java.svg)](https://jitpack.io/#coooltaeho/rtmp-rtsp-stream-client-java)
 
 Library for stream in RTMP and RTSP. All code in Java.
 
 If you need a player see this project:
 
-https://github.com/pedroSG94/vlc-example-streamplayer
+https://github.com/coooltaeho/vlc-example-streamplayer
 
 ## Wiki
 
-https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/wiki
+https://github.com/coooltaeho/rtmp-rtsp-stream-client-java/wiki
 
 ## Permissions:
 
@@ -37,7 +37,7 @@ allprojects {
   }
 }
 dependencies {
-  compile 'com.github.pedroSG94.rtmp-rtsp-stream-client-java:rtplibrary:1.6.0'
+  compile 'com.github.coooltaeho.rtmp-rtsp-stream-client-java:rtplibrary:1.6.1'
 }
 
 ```
@@ -59,10 +59,10 @@ dependencies {
 - [x] H264, H265 and AAC hardware encoding.
 - [x] Force H264 and AAC Codec hardware/software encoding (Not recommended).
 - [x] RTSP TCP/UDP.
-- [x] Stream from video files like mp4, webm, etc (Limited by device decoders). [More info](https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/wiki/Stream-from-file)
+- [x] Stream from video files like mp4, webm, etc (Limited by device decoders). [More info](https://github.com/coooltaeho/rtmp-rtsp-stream-client-java/wiki/Stream-from-file)
 - [x] Stream device display(API 21+).
 - [X] Set Image, Gif or Text to stream on real time.
-- [X] OpenGL real time filters. [More info](https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/wiki/Real-time-filters)
+- [X] OpenGL real time filters. [More info](https://github.com/coooltaeho/rtmp-rtsp-stream-client-java/wiki/Real-time-filters)
 - [X] RTMPS and RTSPS
 - [X] RTSP H265 support (Waiting FLV official packetization to add RTMP support).
 
